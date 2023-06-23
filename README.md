@@ -25,6 +25,7 @@ The Hierarchical File System is an application that allows users to manage direc
 Note: this application takes in the input given in the instructions as an array of strings
 
 - Go inside directory_actions folder
+- Run ```pip install -e .``` to execute code in ```setup.py``` to help find all relevant packages
 - Run ```python main.py```
 
 
@@ -49,7 +50,7 @@ If you want to change the input and test it against a desired output
 
 ### Debugging potential errors
 
-If received ```Module Not Found``` error
+If received ```ModuleNotFoundError```
 
 - Go inside directory_actions folder
 - Run ```pip install -e .``` to execute code in ```setup.py``` to help find all relevant packages
